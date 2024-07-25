@@ -5,7 +5,7 @@ steps:
 
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'push', 'us-central-docker.pkg.dev/sunlit-flag-424919-i3/gke-repo/quickstart-image' ]
+  args: [ 'push', 'us-central-docker.pkg.dev/sunlit-flag-424919-i3/gke-repo/quickstart-image:latest' ]
   id: 'Push Docker Image'
 
 - name: 'gcr.io/cloud-builders/docker'
