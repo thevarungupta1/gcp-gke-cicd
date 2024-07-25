@@ -1,0 +1,10 @@
+apiVersion: deploy.cloud.google.com/v1
+Kind: Target
+metadata:
+  name: prod
+  annotation: {}
+  labels: {}
+description: prod
+requireApproval: true
+gke:
+  cluster: projects/sunlit-flag-424919-i3/locations/us-central1/clusters/cluster-2
